@@ -9,7 +9,7 @@ module Xendit
       @error_message = error_message
       @http_status = http_status
 
-      super to_s
+      super(to_s)
     end
 
     def to_s
